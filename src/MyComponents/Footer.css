@@ -1,0 +1,61 @@
+.footer{
+    padding: 20px 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #444;
+    
+    
+}
+
+
+.footer .logo{
+    padding: 20px 0px;
+}
+
+.footer p {
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer .sub-title{
+    padding-bottom: 5px;
+}
+
+
+
+.footer .title{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.footer ul a:hover{
+ color: #ffc107;
+    
+}
+
+.footer ul {
+    list-style: none;
+    color: #444;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer ul li {
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+.twitter-text {
+    background: #f8f8f8;
+    border: 1px solid #f0f0f0;
+    border-radius: 7px;
+    line-height: 24px;
+    margin-bottom: 65px;
+    padding: 20px;
+    position: relative;
+}

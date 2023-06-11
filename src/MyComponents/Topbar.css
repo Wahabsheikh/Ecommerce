@@ -1,0 +1,56 @@
+.topbar {
+  background-color: #222;
+  padding: 10px 0px;
+  color: white;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.light-text {
+  color: #aaa;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 5px;
+}
+
+.menu-list a:hover {
+  color: #fedc19;
+}
+.topbar .left,
+.topbar .right {
+  font-size: 13px;
+}
+
+@media (min-width: 400px) {
+  .right {
+    text-align: center;
+  }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .right {
+    text-align: center;
+  }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .right {
+    text-align: end;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */
