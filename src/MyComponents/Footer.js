@@ -3,10 +3,10 @@ import "./Footer.css";
 function Footer() {
   return (
     <div>
-      <section class="footer">
+      <section className="footer">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 col-lg-6 col-xl-4 mb-5">
+            <div className="col-md-12 col-lg-6 col-xl-4 mb-5">
               <a href="#">
                 <img
                   class="logo"

@@ -1,6 +1,6 @@
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar(props) {
   return (
     <div>
       <div class="navigation">
@@ -25,7 +25,7 @@ function Navbar() {
             <div class="contact-info col-md-4 col-lg-6 align-self-center">
               <p class="m-0 text-end">
                 <span class="lnr lnr-phone"></span>Hotline :{" "}
-                <strong>1-001-234-5678</strong>
+                <strong>{props.no}</strong>
               </p>
             </div>
           </div>
